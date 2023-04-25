@@ -1,0 +1,200 @@
+.card{
+    margin-top: 140px;
+    margin-right: 80px;
+    display: inline-block;
+}
+
+.card .btn{
+    background-color: #27524d;
+}
+
+
+
+
+@media screen and (min-width: 615px) and (max-width: 770px){
+    .card{
+        margin-top: 70px;
+        margin-left: 25%;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 510px) and (max-width: 615px){
+    .card{
+        margin-top: 70px;
+        margin-left: 25%;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+}
+
+
+
+@media screen and (min-width: 449px) and (max-width: 510px){
+    .card{
+        margin-top: 70px;
+        margin-left: 15%;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 315px) and (max-width: 355px){
+    .card{
+        margin-top: 70px;
+        margin-left: 0%;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+}
+
+@media screen and (min-width: 160px) and (max-width: 250px){
+    .card{
+        margin-top: 70px;
+        margin-left: 0%;
+        max-width: 170px;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+
+    .navbar .bg-dark{
+        width: 100%
+    }
+}
+
+
+
+@media screen and (min-width: 250px) and (max-width: 270px){
+    .card{
+        margin-top: 70px;
+        margin-left: 0%;
+        max-width: 226px;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+
+    .navbar .bg-dark{
+        width: 100%
+    }
+}
+
+
+
+
+@media screen and (min-width: 270px) and (max-width: 276px){
+    .card{
+        margin-top: 70px;
+        margin-left: 4%;
+        max-width: 230px;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+
+    .navbar .bg-dark{
+        width: 100%
+    }
+}
+
+
+@media screen and (min-width: 276px) and (max-width: 316px){
+    .card{
+        margin-top: 70px;
+        margin-left: 4%;
+        max-width: 240px;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+
+    .navbar .bg-dark{
+        width: 100%
+    }
+}
+
+
+
+@media screen and (min-width: 355px) and (max-width: 405px){
+    .card{
+        margin-top: 70px;
+        margin-left: 10%;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+}
+
+
+
+
+@media screen and (min-width:405px) and (max-width: 450px){
+    .card{
+        margin-top: 70px;
+        margin-left: 11%;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (min-width:360px) and (max-width: 405px){
+    .card{
+        margin-right: -48px;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+}
+
+
+
+@media screen and (min-width:341px) and (max-width: 357px){
+    
+    .card{
+        margin-top: 70px;
+        margin-left: 0%;
+    }
+
+    .navbar .bg-dark{
+        width: 350px;}
+}
+
+
+
+@media screen and (min-width: 770px) and (max-width: 790px){
+    .card{
+        margin-top: 70px;
+        margin-left: 0%;
+        margin-right: 2%;
+    }
+
+    .navbar .navbar-toggler .navbar-toggler-icon{
+        margin-right: 4px;
+    }
+}

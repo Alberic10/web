@@ -1,0 +1,3308 @@
+@font-face{
+    font-family: "Cooper1";
+    src: url("../fonts/cooper.ttf")
+}
+@font-face{
+    font-family:"Beaumont";
+    src: url("../fonts/Catherine.ttf");
+}
+
+*{
+    font-family: Cooper1;
+}
+
+html,body {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: #27524d;
+    
+    
+}
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cooper1;
+    color: white;
+}
+.rec{
+    margin-left: 500px;
+    
+}
+
+
+form .rec input{
+    padding : 8px;
+
+    
+}
+
+.rec label{
+    color: #24e712;
+}
+
+form .reu input{
+    width: 300px;
+    padding : 13px;
+    
+}
+
+.reu{
+    margin-left: 500px;
+    margin-top: 28px;
+    
+}
+
+.reu label{
+    color: #24e712;
+}
+
+
+.reb{
+    margin-left: 500px;
+    margin-top: 28px;
+    
+}
+
+form .reb input{
+    width: 300px;
+    padding : 13px;
+}
+.reb label{
+    color: #24e712;
+    
+}
+
+.rev{
+    margin-left: 500px;
+    margin-top: 28px;
+    
+}
+
+form .rev input{
+    width: 300px;
+    padding : 15px;
+}
+.rev label{
+    color: #24e712;
+}
+
+
+.rex{
+    margin-left: 500px;
+    margin-top: 28px; 
+}
+
+form .rex input{
+    width: 230px;
+    padding : 13px;
+}
+
+.rex label{
+    color: #24e712;
+}
+
+
+.rew{
+    margin-left: 500px;
+    margin-top: 28px;
+    
+}
+
+form .rew input{
+    width: 280px;
+    padding : 13px;
+}
+.rew label{
+    color: #24e712;
+}
+
+.req{
+    margin-left: 500px;
+    margin-top: 15px;
+    
+}
+
+form .req input{
+    width: 350px;
+    padding : 13px;
+}
+.req label{
+    color: #24e712;
+}
+
+
+.rek{
+    margin-left: 500px;
+    padding: 10px;
+    
+    
+}
+
+form .rek input{
+    width: 350px;
+    font-size: 15px;
+    
+}
+
+
+.conv{
+    margin-left: 500px;
+    padding: 6px;
+    margin-top : 20px;
+    
+    
+}
+
+
+.rex .fichia{
+    font-size: 13px;
+    margin-left: -10px;
+    margin-top: -7px;
+}
+
+form .conv input{
+    width: 350px;
+    padding : 20px;
+    margin-top : 20px;
+}
+
+
+select{
+    font-size: 0.9rem;
+    padding : 2px 5px;
+}
+
+label{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+    margin : 0.4rem 0;
+}
+
+.btn{
+    padding: 15px;
+    margin-left: 499px;
+    margin-top: 30px;
+    color: #fff;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    background-color: #24e712;
+    border: none;
+}
+
+
+@media only screen and (max-device-width: 600px) and (orientation: Landscape){
+
+}
+
+@media only screen and (max-device-width: 320px) and (orientation: Portrait), screen and (max-device-width: 320)
+and (orientation: landscape), screen and (max-device-width: 480px) and (orientation: Portrait),
+screen and (max-device-width: 480px) and (orientation: landscape){
+
+}
+
+@media screen and (max-device-width: 600px) and (orientation: Landscape){
+
+}
+
+@media screen and (min-width:190px) and (max-width: 228px){
+
+
+    textarea{
+        width: 150px;
+    }
+
+    form .reu input{
+        width: 95px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 26px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 95px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 95px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 95px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 95px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 95px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 20px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 95px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 25px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+    
+}
+
+
+
+
+@media screen and (min-width:228px) and (max-width: 249px){
+
+
+    textarea{
+        width: 177px;
+    }
+
+    form .reu input{
+        width: 140px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 26px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 140px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 140px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 140px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 140px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 140px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 140px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 25px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (min-width:249px) and (max-width: 279px){
+
+
+    textarea{
+        width: 200px;
+    }
+
+    form .reu input{
+        width: 170px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 26px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 170px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 170px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 170px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 170px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 170px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 170px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 25px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+    
+}
+
+
+
+
+
+
+@media screen and (min-width:280px) and (max-width: 299px){
+
+
+    textarea{
+        width: 220px;
+    }
+
+    form .reu input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 26px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 200px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 200px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 25px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width: 387px){
+
+
+    form .reu input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 26px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 200px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 200px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 200px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 25px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+    textarea{
+        width: 250px;
+    }
+}
+
+
+
+
+@media screen and (min-width:387px) and (max-width: 459px){
+
+    
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 24px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 25px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+@media screen and (min-width:387px) and (max-width: 459px){
+
+    textarea{
+        width: 320px;
+    }
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 24px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 26px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 26px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 25px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width:460px) and (max-width: 559px){
+
+    textarea{
+        width: 340px;
+    }
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 70px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 70px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 70px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 70px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 71px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width:400px) and (max-width: 459px){
+
+    
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 35px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 35px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 35px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 35px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 35px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 35px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 35px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 35px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 36px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width:460px) and (max-width: 559px){
+
+    
+
+
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 70px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 70px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 70px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 70px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 70px;
+        margin-top: 28px;
+        
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 71px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width:560px) and (max-width: 600px){
+
+    
+
+
+
+        form .reu input{
+            width: 300px;
+            padding : 15px;
+            
+        }
+        
+        .reu{
+            margin-left: 120px;
+            
+        }
+        
+        .reu label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: -10px;
+        }
+
+
+        .reb{
+            margin-left: 120px;
+            margin-top: 28px;
+            
+        }
+        
+        form .reb input{
+            width: 300px;
+            padding : 15px;
+        }
+        .reb label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: -10px;
+            
+        }
+
+        .rev{
+            margin-left: 120px;
+            margin-top: 28px;
+            
+        }
+        
+        form .rev input{
+            width: 300px;
+            padding : 15px;
+        }
+        .rev label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: -10px;
+        }
+
+        .rec{
+            margin-left: 120px;
+            margin-top: 28px;
+        }
+        
+        
+        form .rec input{
+            width: 90px;
+            padding : 15px;
+            
+        }
+        
+        .rec label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: -10px;
+        }
+        
+        
+        .rex{
+            margin-left: 120px;
+            margin-top: 28px;
+        }
+        
+        
+        form .rex input{
+            width: 300px;
+            padding : 15px;
+            
+        }
+        
+        .rex label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: -10px;
+        }
+        
+
+        .rew{
+            margin-left: 120px;
+            margin-top: 28px;
+        }
+        
+        
+        form .rew input{
+            width: 300px;
+            padding : 15px;
+            
+        }
+        
+        .rew label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: -10px;
+        }
+
+        .conv{
+            margin-left: 120px;
+            margin-top: 28px;
+        }
+        
+        
+        form .conv input{
+            width: 300px;
+            padding : 15px;
+            
+        }
+        
+        .conv label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+        }
+        
+
+        .req{
+            margin-left: 120px;
+            margin-top: 28px;
+        }
+        
+        
+        form .req input{
+            width: 300px;
+            padding : 15px;
+            
+        }
+        
+        .req label{
+            color: #24e712;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: -10px;
+        }
+        
+
+        .btn{
+            padding: 15px;
+            margin-left: 130px;
+            margin-top: 30px;
+            color: #fff;
+            width: 150px;
+            background-position: center;
+            background-size: cover;
+            background-color: #24e712;
+            border: none;
+        }
+        
+        .btn:hover{
+            background-color: #24e712;
+        }
+        .FORM{
+            margin-top: -15px;
+        }
+
+
+}
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 702px){
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 140px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 140px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 140px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 140px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 140px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 140px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 140px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 140px;
+        margin-top: 28px;
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 140px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 702px) and (max-width: 800px){
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 200px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 200px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 200px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 200px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 200px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 200px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 200px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 200px;
+        margin-top: 28px;
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 199px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 801px) and (max-width: 900px){
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 250px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 250px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 250px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 250px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1045px){
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 300px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 300px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 300px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 300px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 300px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 300px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 300px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 300px;
+        margin-top: 28px;
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 298px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 900px){
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 250px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 250px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 250px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 250px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 1046px) and (max-width: 1115px){
+
+    form .reu input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .reu{
+        margin-left: 430px;
+        
+    }
+    
+    .reu label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+
+    .reb{
+        margin-left: 430px;
+        margin-top: 28px;
+        
+    }
+    
+    form .reb input{
+        width: 300px;
+        padding : 15px;
+    }
+    .reb label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+        
+    }
+
+    .rev{
+        margin-left: 430px;
+        margin-top: 28px;
+        
+    }
+    
+    form .rev input{
+        width: 300px;
+        padding : 15px;
+    }
+    .rev label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .rec{
+        margin-left: 430px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rec input{
+        width: 90px;
+        padding : 15px;
+        
+    }
+    
+    .rec label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    .rex{
+        margin-left: 430px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rex input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rex label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .rew{
+        margin-left: 430px;
+        margin-top: 28px;
+    }
+    
+    
+    form .rew input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .rew label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .conv{
+        margin-left: 430px;
+        margin-top: 28px;
+    }
+    
+    
+    form .conv input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .conv label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .req{
+        margin-left: 430px;
+        margin-top: 28px;
+    }
+    
+    
+    form .req input{
+        width: 300px;
+        padding : 15px;
+        
+    }
+    
+    .req label{
+        color: #24e712;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    
+
+    .btn{
+        padding: 15px;
+        margin-left: 431px;
+        margin-top: 30px;
+        color: #fff;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        background-color: #24e712;
+        border: none;
+    }
+    
+    .btn:hover{
+        background-color: #24e712;
+    }
+    .FORM{
+        margin-top: -15px;
+    }
+
+
+}
+
